@@ -72,8 +72,8 @@ public class ViewStart extends JFrame implements ActionListener {
 		
 		
 		Font font = new Font("Calibri", Font.BOLD, 14);
-		gameRules.setFont(font);
-		gameRules.setBackground(MyComponent.burlywood4);
+		//gameRules.setFont(font);
+		//gameRules.setBackground(MyComponent.burlywood4);
 		
 		JScrollPane scrollRules = new JScrollPane(gameRules, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,
 				ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
